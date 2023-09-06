@@ -1,2 +1,2 @@
 # SaintPeterburg
-This code simulates the Saint Peterburg game and give you the outcome per trail you enter. 
+This code simulates the Saint Peterburg Paradox and gives you the outcome per trail you enter. 
