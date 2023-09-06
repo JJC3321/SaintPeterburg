@@ -18,8 +18,7 @@ int main()
     int money = 0;
     int status;
     vector <int> results;
-    float average = 0;
-
+    
     cout << "Enter Number of Trials " << endl;
     cin >> trials;
    
@@ -45,21 +44,11 @@ int main()
         }while(status == 1);
         results.push_back(money); 
     }
-    
-    // Calculated the amount of money made
-    for(int i = 0; i < trials; i++)
-    {
-        average += results[i];
-    } 
-    average = average / trials;
 
-    //Print the various amount of money made per trial
+    //Print the various amounts of money made per trial
     for(int i = 0; i < trials; i++)
     {
         cout << results[i] << ", ";
     }   
-    
-    // Print out the average of amount of money made for all trials
-    cout << endl;
-    cout << average; 
+   
 }
