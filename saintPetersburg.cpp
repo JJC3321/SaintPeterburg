@@ -6,8 +6,8 @@
 using namespace std;
 
 /*
-    This code is to simulate the outcome of Saint Peterburge game and give you outcome per number
-    of trial you seltected.
+    This code is to simulate the outcome of Saint Petersburg paradox and give you the outcome per number
+    of the trial you selected.
 */
 
 
@@ -46,14 +46,14 @@ int main()
         results.push_back(money); 
     }
     
-    // Calualted the amount of money made
+    // Calculated the amount of money made
     for(int i = 0; i < trials; i++)
     {
         average += results[i];
     } 
     average = average / trials;
 
-    //Print the various amount of money made per trials
+    //Print the various amount of money made per trial
     for(int i = 0; i < trials; i++)
     {
         cout << results[i] << ", ";
