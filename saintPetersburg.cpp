@@ -15,9 +15,9 @@ int main()
 {
     
     int trials;
-    int money = 0;
+    uint64_t money = 0;
     int status;
-    vector <int> results;
+    vector <uint64_t> results;
     
     cout << "Enter Number of Trials " << endl;
     cin >> trials;
