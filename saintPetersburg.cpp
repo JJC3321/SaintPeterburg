@@ -42,7 +42,8 @@ int main()
                 status = rand() % 2; 
             }
         }while(status == 1);
-        results.push_back(money); 
+        results.push_back(money);
+        money = 0;
     }
 
     //Print the various amounts of money made per trial
